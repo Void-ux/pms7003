@@ -4,7 +4,7 @@ dynamic = ["version"]
 authors = [
   { name = "Void-ux" }
 ]
-description = "A small Pythonic driver for the PMS7003 particle matter sensor"
+description = "A small Pythonic driver for the PMS7003 particulate matter sensor"
 readme = "README.md"
 requires-python = ">=3.12"
 classifiers = [

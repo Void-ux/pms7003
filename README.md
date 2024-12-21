@@ -1,6 +1,6 @@
 ### pms7003
 
-A small, elegant and performant client driver for the PMS7003 particle matter sensor.
+A small, elegant and performant client driver for the PMS7003 particulate matter sensor.
 
 This code was tested on the Raspberry Pi 5, though feel free to use this on any machine with Python and a serial port.
 
