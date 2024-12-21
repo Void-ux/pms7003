@@ -12,6 +12,14 @@ with PMSSensor('/dev/ttyAMA0') as sensor:
         print(sensor.read())
 ```
 
+### Installation
+
+Installing the library is simple and done purely through git, so make sure you have it installed (`sudo apt-get git` on Debian-based).
+
+```shell
+pip install git+https://github.com/Void-ux/pms7003.git
+```
+
 ### License
 
 MIT
