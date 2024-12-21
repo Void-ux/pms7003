@@ -1,0 +1,28 @@
+[project]
+name = "pms7003"
+dynamic = ["version"]
+authors = [
+  { name = "Void-ux" }
+]
+description = "A small Pythonic driver for the PMS7003 particle matter sensor"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    'Intended Audience :: Developers',
+    'Natural Language :: English',
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = ["pyserial"]
+
+[tool.setuptools.dynamic]
+version = {attr = "pms7003.__version__"}
+
+[project.urls]
+Homepage = "https://github.com/Void-ux/pms7003"
+Issues = "https://github.com/Void-ux/pms7003/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
